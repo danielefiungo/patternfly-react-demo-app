@@ -2,8 +2,7 @@ import {
   READ_TENNANTS_SUCCESS,
   READ_TENNANTS_FAILED,
   READ_TENNANTS_PENDING,
-  SET_TENNTANT,
-  DELETE_TENNANT
+  SET_TENNTANT
 } from '../actions/actionTypes';
 
 const initialStateTennants = {

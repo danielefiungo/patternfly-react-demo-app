@@ -13,11 +13,7 @@ import {
   CardBody
 } from 'patternfly-react';
 
-import {
-  readTennants,
-  selectTennant,
-  removeTennant
-} from '../actions/tennants.actions';
+import { readTennants, selectTennant } from '../actions/tennants.actions';
 
 const mapStateToProps = state => ({
   tennants: {
@@ -28,8 +24,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   fetchTennants: () => dispatch(readTennants()),
-  selectTennant: event => dispatch(selectTennant(event)),
-  removeTennant: event => dispatch(removeTennant(event))
+  selectTennant: event => dispatch(selectTennant(event))
 });
 
 class Tennants extends Component {

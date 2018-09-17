@@ -9,12 +9,16 @@ import registerServiceWorker from './registerServiceWorker';
 import App from './App';
 
 import { requestTennants } from './reducers/tennants.reducer';
+import { requestEmployees } from './reducers/employee.reducer';
 
 const logger = createLogger();
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const rootReducer = combineReducers({ tennants: requestTennants });
+const rootReducer = combineReducers({
+  tennants: requestTennants,
+  employees: requestEmployees
+});
 
 const store = createStore(
   rootReducer,

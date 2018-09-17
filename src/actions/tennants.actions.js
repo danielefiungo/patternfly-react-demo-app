@@ -2,8 +2,7 @@ import {
   READ_TENNANTS_PENDING,
   READ_TENNANTS_FAILED,
   READ_TENNANTS_SUCCESS,
-  SET_TENNTANT,
-  DELETE_TENNANT
+  SET_TENNTANT
 } from './actionTypes';
 
 export const readTennants = () => dispatch => {
@@ -18,10 +17,5 @@ export const readTennants = () => dispatch => {
 
 export const selectTennant = tennant => ({
   type: SET_TENNTANT,
-  payload: tennant
-});
-
-export const removeTennant = tennant => ({
-  type: DELETE_TENNANT,
   payload: tennant
 });
