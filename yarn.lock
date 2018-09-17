@@ -264,6 +264,72 @@
   version "7946.0.4"
   resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.4.tgz#4e049756383c3f055dd8f3d24e63fb543e98eb07"
 
+"@types/history@*":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.0.tgz#2fac51050c68f7d6f96c5aafc631132522f4aa3f"
+
+"@types/lodash.orderby@^4.6.4":
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/@types/lodash.orderby/-/lodash.orderby-4.6.4.tgz#adea1ffe3d5c33ae13b137ca1685f267a6b50f14"
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*", "@types/lodash@^4.14.116":
+  version "4.14.116"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.116.tgz#5ccf215653e3e8c786a58390751033a9adca0eb9"
+
+"@types/ncp@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ncp/-/ncp-2.0.1.tgz#749432511f6ad747d04e98837b18cca9045567fb"
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*":
+  version "10.10.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.10.0.tgz#2b08a1a7d1fa317173a776c2130bf240545cc33e"
+
+"@types/numeral@0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@types/numeral/-/numeral-0.0.25.tgz#b6f55062827a4787fe4ab151cf3412a468e65271"
+
+"@types/prop-types@*":
+  version "15.5.5"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.5.tgz#17038dd322c2325f5da650a94d5f9974943625e3"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-router@^4.0.31":
+  version "4.0.31"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.31.tgz#416bac49d746800810886c7b8582a622ed9604fc"
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+
+"@types/react@*":
+  version "16.4.14"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.14.tgz#47c604c8e46ed674bbdf4aabf82b34b9041c6a04"
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/recompose@^0.26.5":
+  version "0.26.5"
+  resolved "https://registry.yarnpkg.com/@types/recompose/-/recompose-0.26.5.tgz#8496b63c535a60c3584b8b0aca54bfb86679ed70"
+  dependencies:
+    "@types/react" "*"
+
+"@types/redux-logger@^3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@types/redux-logger/-/redux-logger-3.0.6.tgz#4cf9d5b596b576b030a4bb671547f0ab63f81a73"
+  dependencies:
+    redux "^3.6.0"
+
+"@types/redux-thunk@^2.1.0":
+  version "2.1.0"
+  resolved "http://registry.npmjs.org/@types/redux-thunk/-/redux-thunk-2.1.0.tgz#bc2b6e972961831afb82a9bf4f06726e351f9416"
+  dependencies:
+    redux-thunk "*"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -2237,6 +2303,10 @@ cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   dependencies:
     cssom "0.3.x"
 
+csstype@^2.2.0:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.5.7.tgz#bf9235d5872141eccfb2d16d82993c6b149179ff"
+
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -2321,6 +2391,10 @@ decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
 decode-uri-component@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+
+deep-diff@^0.3.5:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/deep-diff/-/deep-diff-0.3.8.tgz#c01de63efb0eec9798801d40c7e0dae25b582c84"
 
 deep-equal@^1.0.1:
   version "1.0.1"
@@ -5120,6 +5194,10 @@ lodash.uniq@^4.5.0:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
+lodash@^4.17.11:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+
 loglevel@^1.4.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
@@ -6944,7 +7022,17 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
-redux@^3.7.2:
+redux-logger@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/redux-logger/-/redux-logger-3.0.6.tgz#f7555966f3098f3c88604c449cf0baf5778274bf"
+  dependencies:
+    deep-diff "^0.3.5"
+
+redux-thunk@*, redux-thunk@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
+
+redux@^3.6.0, redux@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
   dependencies:

@@ -1,12 +1,25 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom';
-import { createStore } from 'redux';
+import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+import thunkMiddleware from 'redux-thunk';
+import { createLogger } from 'redux-logger';
 import registerServiceWorker from './registerServiceWorker';
 import App from './App';
 
-const store = createStore((state = []) => state);
+import { requestTennants } from './reducers/tennants.reducer';
+
+const logger = createLogger();
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const rootReducer = combineReducers({ tennants: requestTennants });
+
+const store = createStore(
+  rootReducer,
+  composeEnhancers(applyMiddleware(thunkMiddleware, logger))
+);
 
 ReactDOM.render(
   <Provider store={store}>

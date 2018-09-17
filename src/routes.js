@@ -1,4 +1,4 @@
-import Ipsum from './pages/Ipsum';
+import TennantsPage from './pages/TennantsPage';
 import Ipsum1A from './pages/Ipsum-1-A';
 import Ipsum1B from './pages/Ipsum-1-B';
 import Dolor from './pages/Dolor';
@@ -9,24 +9,10 @@ const baseName = '/';
 
 const routes = () => [
   {
-    iconClass: 'fa fa-dashboard',
+    iconClass: 'fa fa-user',
     title: 'Ipsum',
     to: '/',
-    component: Ipsum,
-    subItems: [
-      {
-        iconClass: 'fa fa-envelope-open',
-        title: 'Item 1-A',
-        to: '/ipsum/item-1-A',
-        component: Ipsum1A
-      },
-      {
-        iconClass: 'fa fa-envelope-closed',
-        title: 'Item 1-B',
-        to: '/ipsum/item-1-B',
-        component: Ipsum1B
-      }
-    ]
+    component: TennantsPage
   },
   {
     iconClass: 'fa fa-star',
